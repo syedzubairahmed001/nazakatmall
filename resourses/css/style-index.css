@@ -488,7 +488,7 @@ nav{
 }
 .sec-contact-info{
     color: #fff;
-    font-size: 20px;
+    font-size: 15px;
     margin: 10px 0;
 }
 .sec-contact-info i{
@@ -513,6 +513,13 @@ footer p{
 /*_______________media query_______________*/
 
 @media only screen and (max-width:600px){
+    .section-about-us,
+    .section-contact-us,
+    .section-directions,
+    .section-testimonials,
+    .section-youtube-video{
+        padding: 20px;
+    }
     h1{
         font-size: 60px;
     }

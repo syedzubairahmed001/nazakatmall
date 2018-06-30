@@ -23,6 +23,11 @@ $(document).ready(function (){
           });
         }
       });
+      $("#contact-form-send-btn").click(function () {
+          if(input.val === ''){
+              alert("all fields are required");
+          }
+        })
 
     // $("h1").fitText(1.2,{ minFontSize: '50px', maxFontSize: '190px' });
 })
