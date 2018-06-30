@@ -11,6 +11,18 @@ $(document).ready(function (){
             $(".menu-item-container ul li").fadetoggle("fast");
         });
     });
+    $("a").on('click', function(event) {
+
+        if (this.hash !== "") {
+          event.preventDefault();
+          var hash = this.hash;
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+            window.location.hash = hash;
+          });
+        }
+      });
 
     // $("h1").fitText(1.2,{ minFontSize: '50px', maxFontSize: '190px' });
 })

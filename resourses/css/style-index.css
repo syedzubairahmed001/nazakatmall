@@ -25,8 +25,8 @@ html{
     overflow-x: hidden;
 }
 ::selection{
-    color: #fff;
-    background-color: rgba(246, 74, 114, 0.849);
+    color: #f64a73;
+    background-color: rgba(255, 255, 255, 0.952);
 }
 h3{
     font-size: 40px;
@@ -282,6 +282,7 @@ nav{
     color: #fff;
     font-size: 25px;
 }
+
 .sec-about-us-img{
     width: 70%;
     height: 70%;
@@ -305,6 +306,17 @@ nav{
 .sec-about-us-btn:hover,
 .sec-about-us-btn:active{
     background-color: #a11a39;
+}
+/*________section-gallery_________*/
+.section-gallery{
+    width: 100%;
+    background-color: #141414;
+    padding: 20px;
+}
+.sec-gallery-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
 }
 /*___________section testimonials__________*/
 .section-testimonials{
@@ -363,16 +375,140 @@ nav{
     text-decoration: none;
     background-color: #173d5c;
 }
-/*________section-gallery_________*/
-.section-gallery{
-    width: 100%;
+
+
+/*______section-youtube-video_______*/
+.section-youtube-video{
     background-color: #141414;
-    padding: 20px;
+    padding: 50px;
 }
-.sec-gallery-img{
+.sec-yt-vid-para{
+    color: #fff;
+    font-size: 20px;
+}
+.sec-yt-vid-para span{
+    font-size: 25px;
+    font-weight: 400;
+    text-decoration: underline;
+    text-decoration-color: #318bd5;
+}
+.sec-yt-vid-btn-ola,
+.sec-yt-vid-btn-uber{
+    display: inline-block;
+    margin: 20px 10px;
+    margin-left: 0;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.2s, color 0.2s;
+}
+.sec-yt-vid-btn-ola{
+    background-color: #318bd5;
+}
+.sec-yt-vid-btn-uber{
+    background-color: #f64a73;
+}
+.sec-yt-vid-btn-ola:hover,
+.sec-yt-vid-btn-ola:active{
+    background-color: #173d5c;
+    color: #ccc;
+}
+.sec-yt-vid-btn-uber:hover,
+.sec-yt-vid-btn-uber:active{
+    background-color: #a11a39;
+    color: #ccc;
+}
+
+/*_________section-directions____________*/
+.section-directions{
+    background-color: #f64a73;
+    padding: 50px;
+}
+.sec-directions-para{
+    color: #fff;
+    font-size: 25px;
+}
+.sec-directions-btn{
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 20px 0;
+    background-color: #318bd5;
+    border-radius: 20px;
+    transition: background-color 0.2s;
+}
+.sec-directions-btn:hover,
+.sec-directions-btn:active{
+    background-color: #a11a39;
+}
+
+/* __________section contact_____ */
+.section-contact-us{
+    background-color: #141414;
+    padding: 50px;
+}
+.contact-form input{
+    display: block;
+    margin: 10px auto auto auto;
+}
+.contact-form input[type="text"],
+.contact-form input[type="email"]{
+    border: none;
     width: 100%;
-    height: 100%;
-    border-radius: 10px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: #2c2c2c;
+    border: 2px solid #2c2c2c;
+    padding: 0 10px;
+    color: #fff;
+}
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus{
+    outline: none;
+    border: 2px solid #f64a73;
+}
+.contact-form input[type="submit"]{
+    background-color: #318bd5;
+    color: #fff;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 30px;
+    margin-top: 20px;
+    transition: background-color 0.2s;
+}
+.contact-form input[type="submit"]:hover,
+.contact-form input[type="submit"]:active{
+    background-color: #f64a73;
+}
+.contact-form input[type="submit"]:focus{
+    outline: none;
+}
+.sec-contact-info{
+    color: #fff;
+    font-size: 20px;
+    margin: 10px 0;
+}
+.sec-contact-info i{
+    padding: 10px;
+    background-color: #f64a73;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+/*__________footer__________*/
+footer{
+    width: 100%;
+    background-color: #313131;
+}
+footer p{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: #ddd;
+    padding: 10px 0;
+
 }
 /*_______________media query_______________*/
 
@@ -405,6 +541,14 @@ nav{
     }
     .sec-gallery-img{
         margin: 10px;
+    }
+    .sec-directions-para{
+        margin-top: 30px;
+    }
+    .mapouter,
+    .gmap_canvas{
+        height: 300px !important;
+        width: 300px !important;
     }
 }
 /*00webhost branding fix*/
