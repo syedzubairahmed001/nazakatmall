@@ -455,7 +455,8 @@ nav{
     margin: 10px auto auto auto;
 }
 .contact-form input[type="text"],
-.contact-form input[type="email"]{
+.contact-form input[type="email"],
+.contact-form input[type="number"]{
     border: none;
     width: 100%;
     height: 45px;
@@ -466,7 +467,8 @@ nav{
     color: #fff;
 }
 .contact-form input[type="text"]:focus,
-.contact-form input[type="email"]:focus{
+.contact-form input[type="email"]:focus,
+.contact-form input[type="number"]:focus{
     outline: none;
     border: 2px solid #f64a73;
 }
@@ -542,6 +544,10 @@ footer p{
     .menu-item-container ul li a{
         font-size: 25px;
     }
+    .sec-about-us-img{
+        border: 5px solid #318bd5;
+        margin: 20px 10%;
+    }
     .sec-testimonials-container{
         padding: 10px;
         margin-bottom: 20px;
@@ -556,6 +562,9 @@ footer p{
     .gmap_canvas{
         height: 300px !important;
         width: 300px !important;
+    }
+    .contact-form{
+        margin-bottom: 30px;
     }
 }
 /*00webhost branding fix*/

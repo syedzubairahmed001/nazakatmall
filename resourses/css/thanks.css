@@ -1,0 +1,53 @@
+/*
+product-color: #f64a73    (pink)
+dark-color: #313131       (grey)
+success-color: #31d5b4    (greenish)
+highlight-color: #318bd5  (blueish)
+
+font-family: 'Open Sans', sans-serif;
+*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    overflow-x: hidden;
+    background-color: #141414;
+}
+::selection{
+    color: #fff;
+    background-color: rgba(246, 74, 114, 0.849);
+}
+p{
+    color: #ddd;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 600;
+}
+a{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #ddd;
+    background: #318bd5;
+    padding: 10px 0;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+}
+a:hover,
+a:active{
+    background-color: #313131;
+}
