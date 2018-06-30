@@ -287,7 +287,7 @@ nav{
     height: 70%;
     margin-left: 10%;
     border-radius: 50%;
-    box-shadow: 10px 10px 0 #318bd5;
+    border: 10px solid #318bd5;
 }
 .sec-about-us-btn{
     text-align: center;
@@ -363,7 +363,7 @@ nav{
     text-decoration: none;
     background-color: #173d5c;
 }
-/*________section-fashion_________*/
+/*________section-gallery_________*/
 .section-gallery{
     width: 100%;
     background-color: #141414;
@@ -374,7 +374,6 @@ nav{
     height: 100%;
     border-radius: 10px;
 }
-
 /*_______________media query_______________*/
 
 @media only screen and (max-width:600px){
