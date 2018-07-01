@@ -283,7 +283,12 @@ nav{
     color: #fff;
     font-size: 25px;
 }
-
+/* .sec-about-us-para span{
+    font-weight: 600;
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-color: #318bd5;
+} */
 .sec-about-us-img{
     width: 70%;
     height: 70%;

@@ -12,6 +12,7 @@ font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
 }
 body{
     padding: 0;
@@ -30,14 +31,14 @@ p{
     text-transform: uppercase;
     text-align: center;
     margin-top: 50px;
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 25px;
+    font-weight: 400;
 }
 a{
     display: block;
     text-align: center;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 20px;
     text-decoration: none;
     color: #ddd;
     background: #318bd5;
